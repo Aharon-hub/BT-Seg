@@ -1,0 +1,21 @@
+network: 3d_fullres
+network_trainer: nnUNetTrainerV2_HD95
+task: Task180_BraTS19
+fold: 0
+model: Generic_TransUNet_max_ppbp
+batch_size: 4
+max_num_epochs: 80
+initial_lr: 3.0e-4
+weight_decay: 1.0e-2
+lrschedule: cosine
+warmup_epochs: 20
+optimizer: adamw
+npz: True
+valbest: True
+disable_ds: False
+fp32: False
+model_params:
+  vit_depth: 12
+  vit_hidden_size: 768
+  vit_mlp_dim: 3072
+  vit_num_heads: 12

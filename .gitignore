@@ -1,0 +1,19 @@
+__pycache__/
+.ipynb_checkpoints/
+*.nii
+*.nii.gz
+nnUNet_raw_data_base/
+preprocessed/
+nnUNet_trained_models/
+*.pt
+*.pth
+*.ckpt
+*.log
+*.png
+*.pdf
+*.pptx
+
+# Keep project artifacts committed
+!docs/*.pdf
+!docs/*.pptx
+!notebooks/*.ipynb

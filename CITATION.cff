@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: BT-Seg: 3D-TransUNet for Brain Tumor Segmentation (with HD95)
+authors:
+  - family-names: Shemesh
+    given-names: Ari Aharon
+  - family-names: Asael
+    given-names: Itay
+license: Apache-2.0
